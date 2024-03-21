@@ -1,0 +1,52 @@
+/* @import url("httpss://fonts.googleapis.com/css2?family=inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@200&display=swap');
+
+@tailwind components;
+@tailwind base;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',;
+/* font-family: Arial, Helvetica, sans-serif,'Montserrat'; */
+  overflow: scroll;
+  background:  #072e33;
+}
+/* @layer components{
+  .btn{
+    padding: 10px 150px;
+  }
+} */
+.skill :nth-last-child(4){
+  background: #6da5c0;
+}
+@media (max-width : 320px) {
+  .theme{
+  left: 1%;
+  }
+}
+.service-card{
+  text-align: center;
+  margin-top: 10px;
+  border: 2px solid #ffffff;
+}
+.s-card-b :nth-last-child(6){
+  border: 2px solid #6da5c0;
+}
+.s-card-b :nth-last-child(6):hover{
+  
+  border-color: #ffffff;
+}
+.s-card-b :nth-last-child(4){
+  border: 2px solid #6da5c0;
+}
+.s-card-b :nth-last-child(4):hover{
+  border-color: #ffffff;
+}
+.s-card-b :nth-child(5){
+  border: 2px solid #6da5c0;
+}
+.s-card-b :nth-child(5):hover{
+  border-color: #ffffff;
+}
